@@ -6,7 +6,7 @@ II. An all-sky cluster catalogue with Gaia DR3.
     Astron. Astrophys. 673, A114 (2023)
     =2023A&A...673A.114H        (SIMBADNED BibCode)
 ================================================================================
-ADC_Keywords Milky Way ; Surveys ; Clusters, open ; Positional data ; Optical
+ADC_Keywords Milky Way ; Surveys ; Clusters, open ; Positiol data ; Optical
 Keywords open clusters and associations general - methods data analysis -
           catalogs - astrometry
 Abstract
