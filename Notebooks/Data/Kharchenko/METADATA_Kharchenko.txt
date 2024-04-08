@@ -326,7 +326,7 @@ Byte-by-byte Description of file: stars/*
  196-203  F8.2  %        Pkin    [0/100] Proper motion membership probability
  204-211  F8.2  %        PJKs    [0/100] Photometric JKs membership probability
  212-219  F8.2  %        PJH     [0/100] Photometric JH membership probability
- 221-224  I04   ---      MWSC    [1/3784] MWSC number of cluster
+ 221-224  I04   ---           [1/3784] MWSC number of cluster
 --------------------------------------------------------------------------------
 Note (1): Blue magnitude, if the star is in the ASCC-2.5 (ASCC is not equal 0), 
   then this is the Johnson B magnitude from ASCC-2.5; 
