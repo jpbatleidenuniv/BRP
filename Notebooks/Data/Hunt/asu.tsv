@@ -1,0 +1,66 @@
+#
+#   VizieR Astronomical Server vizier.cds.unistra.fr
+#    Date: 2024-04-24T14:45:57 [V7.33.3]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	service_protocol=ASU	  IVOID of the protocol through which the data was retrieved
+#INFO	request_date=2024-04-24T14:45:57	  Query execution date
+#INFO	request=https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-oc.form=dec&-out.max=unlimited&-order=I&-out.src=J/A+A/673/A114/members&-c.eq=J2000&-c.r=  2&-c.u=arcmin&-c.geom=r&-source=J/A+A/673/A114/members&-out=Name&Name=FSR_1017&-out=ID&-out=GaiaDR3&-out=inrt&-out=Prob&-out=RA_ICRS&-out=DE_ICRS&-out=pmRA&-out=pmDE&-out=Plx&-out=Gmag&-out=BPmag&-out=RPmag&-out=RV&-out=_RA.icrs&-out=_DE.icrs&	  Full request URL (POST)
+#INFO	contact=cds-question@unistra.fr	  Email or URL to contact publisher
+#INFO	server_software=7.33.3	  Software version
+#INFO	publisher=CDS	  Data centre that produced the VOTable
+
+#RESOURCE=yCat_36730114
+#Name: J/A+A/673/A114
+#Title: Improving the open cluster census. II. (Hunt+, 2023)
+#INFO	ivoid=ivo://cds.vizier/j/a+a/673/a114	    IVOID of underlying data collection
+#INFO	creator=Hunt E.L.	    First author or institution
+#INFO	cites=bibcode:2023A&A...673A.114H	    Article or Data origin sources
+#INFO	editor=Astronomy and Astrophysics	    Editor name (article)
+#INFO	original_date=2023	    Year of the article publication
+#INFO	reference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/673/A114	    Dataset landing page
+#INFO	publication_date=2023-07-27	    Date of first publication in the data centre
+#INFO	rights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html	    Licence URI
+#Coosys	H_2016.000:	ICRS
+#Table	J_A_A_673_A114_members:
+#Name: J/A+A/673/A114/members
+#Title: Member stars of clusters (corrected version)
+#Column	Name	(a20)	Main accepted cluster name	[ucd=meta.id.parent]
+#Column	ID	(I4)	? Internal cluster ID	[ucd=meta.id]
+#Column	GaiaDR3	(I19)	Gaia DR3 source ID	[ucd=meta.id;meta.main]
+#Column	inrt	(I1)	[0/1] Flag indicating if cluster is within tidal radius (i.e. is a good member)	[ucd=meta.code]
+#Column	Prob	(F11.8)	[0/1] Membership probability	[ucd=stat.probability]
+#Column	RA_ICRS	(F12.8)	Right ascension of star (ICRS) at Ep=2016.0	[ucd=pos.eq.ra;meta.main]
+#Column	DE_ICRS	(F12.8)	Declination of star (ICRS) at Ep=2016.0	[ucd=pos.eq.dec;meta.main]
+#Column	pmRA	(E10.3)	Mean proper motion in right ascension multipled by cos(dec)	[ucd=pos.pm;pos.eq.ra]
+#Column	pmDE	(E10.3)	Mean proper motion in declination	[ucd=pos.pm;pos.eq.dec]
+#Column	Plx	(E10.3)	Mean parallax	[ucd=pos.parallax;stat.mean]
+#Column	Gmag	(F10.7)	Mean G-band magnitude	[ucd=phot.mag;em.opt]
+#Column	BPmag	(F10.7)	Mean BP-band magnitude	[ucd=phot.mag;em.opt.B]
+#Column	RPmag	(F10.7)	Mean RP-band magnitude	[ucd=phot.mag;em.opt.R]
+#Column	RV	(E9.2)	? Mean Gaia DR3 radial velocity	[ucd=phys.veloc;pos.heliocentric]
+#Column	_RA.icrs	(F12.8)	Right ascension (ICRS) at Epoch=J2000, proper motions taken into account	[ucd=pos.eq.ra]
+#Column	_DE.icrs	(F12.8)	Declination (ICRS) at Epoch=J2000, proper motions taken into account	[ucd=pos.eq.dec]
+Name;ID;GaiaDR3;inrt;Prob;RA_ICRS;DE_ICRS;pmRA;pmDE;Plx;Gmag;BPmag;RPmag;RV;_RA.icrs;_DE.icrs
+ ; ; ; ; ;deg;deg;mas/yr;mas/yr;mas;mag;mag;mag;km/s;deg;deg
+--------------------;----;-------------------;-;-----------;------------;------------;----------;----------;----------;----------;----------;----------;---------;------------;------------
+FSR_1017            ;1614;3369989743134480640;0; 0.97014781;094.98192626;+16.84010085;-1.564e+01;-1.030e+02; 3.199e+01;13.9479330;15.7430160;12.6764390; 1.76e+01;094.98199889;+16.84055863
+FSR_1017            ;1614;3294879629938213376;1; 0.98195929;072.84834246;+11.28533675; 2.327e+01;-6.087e+01; 2.237e+01;14.6421040;16.2758460;13.4165230; 5.75e+01;072.84823700;+11.28560728
+FSR_1017            ;1614;3238965099979863296;1; 1.00000000;076.55399400;+04.65715173; 3.016e+01;-8.986e+01; 3.619e+01;11.9917800;13.6691830;10.7348850; 2.01e+01;076.55385951;+04.65755111
+FSR_1017            ;1614;3231945508509506176;1; 1.00000000;074.89531686;+01.78309761; 3.913e+01;-9.490e+01; 4.099e+01; 9.3220680;10.2588250; 8.3573885; 1.85e+01;074.89514286;+01.78351939
+FSR_1017            ;1614;3228854506445679616;1; 1.00000000;075.48623384;+01.14484712; 3.430e+01;-9.076e+01; 3.954e+01;11.5125410;13.1257160;10.2678490; 1.98e+01;075.48608137;+01.14525050
+FSR_1017            ;1614;3228564407174474368;1; 1.00000000;076.57727880;+00.56916680; 1.788e+01;-6.252e+01; 2.897e+01;15.3549185;17.4047760;14.0287150;         ;076.57719933;+00.56944467
+FSR_1017            ;1614;3216922640621225088;1; 1.00000000;083.49930048;-02.35925536; 9.525e+00;-5.841e+01; 2.912e+01;11.2672615;12.6122090;10.1199665; 2.00e+01;083.49925811;-02.35899576
+FSR_1017            ;1614;3216753556349327232;1; 1.00000000;083.02486524;-03.02133101; 8.064e+00;-5.066e+01; 2.596e+01;13.9123590;15.9051640;12.5934130;         ;083.02482935;-03.02110585
+FSR_1017            ;1614;2901786974419551488;0; 1.00000000;082.43627470;-32.65392314; 1.526e+01; 1.077e+01; 3.360e+01;12.2688790;14.0271650;10.9961600; 2.34e+01;082.43619415;-32.65397101
+FSR_1017            ;1614;3216729878197029120;1; 0.95831475;082.99117297;-03.06045221; 1.762e+01;-5.179e+01; 2.630e+01;12.7010640;14.5985360;11.3813780;         ;082.99109455;-03.06022203
+FSR_1017            ;1614;3209947476293720448;1; 0.94503736;080.18179920;-05.78144313; 9.245e+00;-3.738e+01; 2.388e+01;13.1520090;14.5193560;12.0030300; 3.45e+01;080.18175790;-05.78127700
+FSR_1017            ;1614;3209947441933983744;1; 0.94569655;080.16841910;-05.78657505; 9.690e+00;-3.699e+01; 2.395e+01; 8.5954680; 9.0079170; 8.0136180; 3.34e+01;080.16837581;-05.78641065
+FSR_1017            ;1614;3205095125321700480;1; 1.00000000;069.40074849;-02.47383338; 4.405e+01;-6.403e+01; 3.344e+01; 5.1411705; 5.2874370; 4.8921456;         ;069.40055253;-02.47354880
+FSR_1017            ;1614;3009908378049913216;1; 1.00000000;081.76992403;-11.90118197; 1.692e+01;-4.932e+01; 3.725e+01; 6.2095270; 6.4884987; 5.7523360; 2.11e+01;081.76984718;-11.90096277
+FSR_1017            ;1614;3002957677856537728;1; 0.96749240;098.08450703;-09.72496654;-1.676e+01;-5.442e+01; 3.899e+01;12.9186550;14.6510490;11.6474085; 6.41e+01;098.08458260;-09.72472467
+FSR_1017            ;1614;2962658549474035584;0; 1.00000000;076.70820979;-21.58593748; 4.719e+01;-1.538e+01; 5.043e+01; 9.5620480;10.7237840; 8.4862930; 1.65e+01;076.70798424;-21.58586912
+FSR_1017            ;1614;3216729882489605376;1; 1.00000000;082.99237510;-03.06131063; 8.144e+00;-5.403e+01; 2.591e+01;13.2461440;15.0180300;11.9746685;         ;082.99233885;-03.06107050
+
