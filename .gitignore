@@ -13,16 +13,17 @@ Notebooks/Data/UPK_533-result.csv
 Notebooks/Data/UPK_654-result.csv
 Notebooks/Data/UBC14-result.csv
 Notebooks/Data/UBC21-result.csv
-Notebooks/Data/UPK495/
-Notebooks/Data/UPK533/
-Notebooks/Data/UPK654/
-Notebooks/Data/UBC14/
-Notebooks/Data/UBC21/
-Notebooks/Data/UBC13/
-Notebooks/Data/COIN/
-Notebooks/Data/Platais10/
+Notebooks/Data/UPK_495/
+Notebooks/Data/UPK_533/
+Notebooks/Data/UPK_654/
+Notebooks/Data/UBC_14/
+Notebooks/Data/UBC_21/
+Notebooks/Data/UBC_13/
+Notebooks/Data/COIN-Gaia_13/
+Notebooks/Data/Platais_10/
 
 Notebooks/Data/FirstUPK654-result.csv
 Notebooks/Data/SecondUPK654-result.csv
 Notebooks/Data/UPK533-result.csv
 Notebooks/Data/UPK654-result.csv
+Notebooks/Data/oc_means_dr3.csv
